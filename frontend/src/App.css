@@ -13,3 +13,106 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: #f5f5f5;
 }
+
+/* HEADER */
+.header {
+  background-color: #e91e63;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.header p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.header a:hover,
+.header a:visited,
+.header a:focus {
+  color: white;
+  text-decoration: none;
+}
+
+/* FORMULAIRE */
+.form-container {
+  background-color: white;
+  padding: 1rem;
+  margin: 2rem auto;
+  border-radius: 8px;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.form-container input,
+.form-container select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  min-width: 120px;
+}
+
+.form-container button {
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #d81b60;
+}
+
+/* LISTE DE PAYS */
+.country-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.country-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 100px;
+  text-align: center;
+  font-size: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.country-detail {
+  max-width: 400px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.country-detail h1 {
+  margin-bottom: 1rem;
+}
+
+.country-detail p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
